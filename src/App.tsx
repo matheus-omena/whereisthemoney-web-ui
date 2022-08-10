@@ -20,7 +20,7 @@ function App() {
   return (
     <Suspense fallback={fallback}>
       <AuthProvider>
-        <main className="">
+        <main className="container mx-auto px-5 xl:px-0 lg:px-0 md:px-0 sm:px-5 py-5">
           <ToastContainer autoClose={3000} />
           <Routes />
         </main>

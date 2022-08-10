@@ -6,14 +6,12 @@ export default function WebRoutes() {
     return (
         <BrowserRouter>
             <NavbarMenu />
+            
+            <Routes>
+                <Route path="/" element={<Home />} />
 
-            <div className="container mx-auto px-5 py-5">
-                <Routes>
-                    <Route path="/" element={<Home />} />
-
-                    {/* <Route path="/*" element={<NotFound />} /> */}
-                </Routes>
-            </div>
+                {/* <Route path="/*" element={<NotFound />} /> */}
+            </Routes>            
         </BrowserRouter>
     );
 }
