@@ -12,6 +12,7 @@ export default function Home() {
     const auth = useAuth();
 
     return (
+        /* Página inicial */
         <DefaultTransition>
             <div className="mt-2 mb-10">
                 <p className="text-3xl font-thin mb-2">Olá, <strong className="font-bold">{auth.user?.name}</strong></p>
