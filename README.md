@@ -1,4 +1,4 @@
-<h1>My Fynances</h1> 
+<h1>Where's The Money?</h1> 
 
 <p align="center">  
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>   
@@ -15,7 +15,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  O My Finances é uma solução para controle e monitoramento de despesas, tendo como principal diferencial o agrupamento e a atribuição de responsáveis as despesas. Essa é uma solução prática para, por exemplo, dividir as contas de casa por 2 ou até mais pessoas!
+  O Where's The Money? é uma solução para controle e monitoramento de despesas, tendo como principal diferencial o agrupamento e a atribuição de responsáveis as despesas. Essa é uma solução prática para, por exemplo, dividir as contas de casa por 2 ou até mais pessoas!
 </p>
 
 ## Tecnologias
@@ -42,7 +42,7 @@ node -v
 Clone o projeto localmente. 
 
 ```
-git clone https://github.com/matheus-omena/my-finances-webui.git
+git clone https://github.com/matheus-omena/whereisthemoney-webui.git
 ```
 
 No diretório clonado, instale as dependências do projeto.
