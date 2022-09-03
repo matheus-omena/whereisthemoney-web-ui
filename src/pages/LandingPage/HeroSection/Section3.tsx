@@ -1,38 +1,29 @@
 import { Folders, UserCircle, Wallet } from "phosphor-react";
 
 export default function Section3() {
-    return (
-        <section className="bg-green-500 text-white">
-            <div className="container mx-auto py-12">
-                <div className="text-center">
-                    <h2 className="text-4xl font-bold mb-7">Tenha controle de tudo!</h2>
-                    <p className="mb-10">
-                        Acompanhe seus gastos através de diferentes perspectivas.
-                        <br />
-                        Veja seus gastos por:
-                    </p>
-                    <div className="flex justify-center gap-20 items-center">
-                        <div className="flex flex-col gap-5">
-                            <div className="bg-green-500 text-white w-[120px] h-[120px] rounded-full flex items-center justify-center">
-                                <Folders weight="fill" size={50} />
-                            </div>
-                            <span>Categoria</span>
-                        </div>
-                        <div className="flex flex-col gap-5">
-                            <div className="bg-green-500 text-white w-[120px] h-[120px] rounded-full flex items-center justify-center">
-                                <UserCircle weight="fill" size={50} />
-                            </div>
-                            <span>Responsável</span>
-                        </div>
-                        <div className="flex flex-col gap-5">
-                            <div className="bg-green-500 text-white w-[120px] h-[120px] rounded-full flex items-center justify-center">
-                                <Wallet weight="fill" size={50} />
-                            </div>
-                            <span>Grupos de despesa</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section className="bg-white text-zinc-800">
+      <div className="container mx-auto py-12">
+        <div className="grid sm:grid-cols-4 md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12">
+          <div className="col-span-5 py-5">
+            {/* <img alt="ILUSTRAÇÃO" src={Illustration} /> */}
+          </div>
+          <div className="col-span-7 flex flex-col justify-center h-full">
+            <h1 className="text-6xl text-zinc-900 leading-snug font-bold mb-5">
+              Crie suas próprias
+              <br />
+              categorias e
+              <br />
+              grupos de despesa!
+            </h1>
+            <p className="text-lg mb-20">
+              Personalize seu controle e agrupamento de gastos como achar melhor
+              <br />e tenha a visão que mais agrada você.
+            </p>
+            <div>{/* <Button title="Criar uma conta" /> */}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
